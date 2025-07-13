@@ -1,3 +1,5 @@
+![](roma.png)
+
 I am an Associate Professor at IMECC/Unicamp, the Institute of Mathematics, Statistics and Scientific Computing at the University of Campinas.
 
 My research area is the qualitative theory of dynamical systems: Filippov systems, structural stability, systems with symmetries (Hamiltonian and/or reversible-equivariant), existence and stability of limit cycles, Ricci flow on homogeneous manifolds, etc.
@@ -9,7 +11,7 @@ My e-mail is: RMiranda [at] unicamp [dot] br
 ## Research & Publications
 
 - [List of publications](#)
-- [Currículo Lattes](#)
+- [Currículo Lattes](http://lattes.cnpq.br/7260833760482439)
 - [CV (pdf)](#)
 - Rede TeQA (Teoria Qualitativa e Aplicações) de Sistemas Dinâmicos (Dynamical Systems Network in Brazil)
 
