@@ -1,4 +1,4 @@
-![](roma.png)
+<img style="max-width: 300px;" src=roma.png>
 
 I am an Associate Professor at IMECC/Unicamp, the Institute of Mathematics, Statistics and Scientific Computing at the University of Campinas.
 
