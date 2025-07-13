@@ -1,21 +1,11 @@
-
 # main title
 title: Prof. Ricardo Miranda Martins
-
-# subtitle
-# tagline: Blog
-
 
 # protocol & hostname for your site (it does not end with a '/')
 url: https://rmiranda99.github.io
 
 author:
   name: Ricardo Miranda Martins
-
-github:
-  username: rmiranda99
-
-
 
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
@@ -28,15 +18,3 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-
-
-exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - docs
-  - tools
-  - README.md
-  - LICENSE
-  - purgecss.js
-  - rollup.config.js
-  - "package*.json"
