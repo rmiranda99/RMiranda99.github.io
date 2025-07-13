@@ -1,4 +1,4 @@
-<img style="max-width: 300px;" src=roma.png>
+<img src="roma.png" width=200px style="max-width: 300px;">
 
 I am an Associate Professor at IMECC/Unicamp, the Institute of Mathematics, Statistics and Scientific Computing at the University of Campinas.
 
