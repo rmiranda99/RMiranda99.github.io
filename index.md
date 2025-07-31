@@ -51,8 +51,8 @@ I share [Federico Ardila](http://math.sfsu.edu/federico/)’s axioms, in particu
 ## Contact info
 
 Alternate urls for this website:
-- [https://www.ime.unicamp.br/~rmiranda/](https://www.ime.unicamp.br/~rmiranda/)
-- [https://rmiranda99.github.io/](https://rmiranda99.github.io/)
+- [https://www.ime.unicamp.br/~rmiranda/](https://www.ime.unicamp.br/~rmiranda/) (main)
+- [https://rmiranda99.github.io/](https://rmiranda99.github.io/) (not to updated)
 
 Contact address:   
 IMECC/Unicamp – main building (office \#335)  
