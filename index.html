@@ -7,125 +7,140 @@
 <link rel="stylesheet" href="" />
         <style>
 
-            html {
-              color: #1a1a1a;
-              background-color: white;
-              font-size: 1.1em;
+        html {
+        	color: #1a1a1a;
+        	background-color: white;
+        	font-size: 1.1em;
+        }
 
-            }
+        body {
+        	margin: 0 auto;
+        	max-width: 40em;
+        	padding-left: 20px;
+        	padding-right: 20px;
+        	padding-top: 20px;
+        	padding-bottom: 20px;
+        	hyphens: auto;
+        	overflow-wrap: break-word;
+        	text-rendering: optimizeLegibility;
+        	font-kerning: normal;
+        }
 
+        p {
+        	margin: 1em 0;
+        }
 
-            body {
-              margin: 0 auto;
-              max-width: 40em;
-              padding-left: 20px;
-              padding-right: 20px;
-              padding-top: 20px;
-              padding-bottom: 20px;
-              hyphens: auto;
-              overflow-wrap: break-word;
-              text-rendering: optimizeLegibility;
-              font-kerning: normal;
-            }
-            p {
-              margin: 1em 0;
-            }
+        a {
+        	text-decoration: none;
+        }
 
         a:link {
         	color: #0066cc;
+
         }
         a:visited {
-        	color: #743399;
+        	color: #0053b4;
         }
         a:active,
         a:hover {
         	color: #ff4b33;
         }
 
-
-
-            img {
+        img {
               max-width: 100%;
-            }
-            svg {
+        }
+
+        svg {
               height: auto;
               max-width: 100%;
-            }
-            h1, h2, h3, h4, h5, h6 {
+        }
+
+        h1, h2, h3, h4, h5, h6 {
               margin-top: 0.2em;
-            }
+        }
 
-            h1 {
-              font-size: 1.5em;
+        h1 {
+              font-size: 1.5rem;
               font-weight: bold;
-            }
+        }
 
+        h2 {
+        	font-size: 1em;
+        	font-weight: bold;
+        }
 
-            h2 {
-              font-size: 1em;
-              font-weight: bold;
-            }
+        h5, h6 {
+        	font-size: 1em;
+        	font-style: italic;
+        }
 
-            h5, h6 {
-              font-size: 1em;
-              font-style: italic;
-            }
-            h6 {
-              font-weight: normal;
-            }
-            ol, ul {
-              padding-left: 1.5em;
-        //      margin-top: 0.2em;
-            }
-            li > ol, li > ul {
-              margin-top: 0;
-            }
+        h6 {
+        	font-weight: normal;
+        }
+
+        ol, ul {
+        	padding-left: 1.5em;
+        //	margin-top: 0.2em;
+        }
+
+        li > ol, li > ul {
+        	margin-top: 0;
+        }
+
         .center {
           text-align: center;
         }
 
-            blockquote {
-              margin: 1em 0 1em 1.7em;
-              padding-left: 1em;
-              border-left: 2px solid #e6e6e6;
-              color: #606060;
-            }
-            code {
-              font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-              font-size: 85%;
-              margin: 0;
-              hyphens: manual;
-            }
-            pre {
-              margin: 1em 0;
-              overflow: auto;
-            }
-            pre code {
-              padding: 0;
-              overflow: visible;
-              overflow-wrap: normal;
-            }
-            .sourceCode {
-             background-color: transparent;
-             overflow: visible;
-            }
-            hr {
-              border: none;
-              border-top: 1px solid #1a1a1a;
-              height: 1px;
-              margin: 1em 0;
-            }
-            table {
-              margin: 1em 0;
-              border-collapse: collapse;
-              width: 100%;
-              overflow-x: auto;
-              display: block;
-              font-variant-numeric: lining-nums tabular-nums;
-            }
-            table caption {
-              margin-bottom: 0.75em;
-            }
+        blockquote {
+        	margin: 1em 0 1em 1.7em;
+        	padding-left: 1em;
+        	border-left: 2px solid #e6e6e6;
+        	color: #606060;
+        }
+
+        code {
+        	font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+        	font-size: 85%;
+        	margin: 0;
+        	hyphens: manual;
+        }
+
+        pre {
+        	margin: 1em 0;
+        	overflow: auto;
+        }
+
+        pre code {
+        	padding: 0;
+        	overflow: visible;
+        	overflow-wrap: normal;
+        }
+
+        .sourceCode {
+        	background-color: transparent;
+        	overflow: visible;
+        }
+
+        hr {
+        	border: none;
+        	border-top: 1px solid #1a1a1a;
+        	height: 1px;
+        	margin: 1em 0;
+        }
+
+        table {
+        	margin: 1em 0;
+        	border-collapse: collapse;
+        	width: 100%;
+        	overflow-x: auto;
+        	display: block;
+        	font-variant-numeric: lining-nums tabular-nums;
+        }
+
+        table caption {
+        	margin-bottom: 0.75em;
+        }
+
             tbody {
               margin-top: 0.5em;
               border-top: 1px solid #1a1a1a;
@@ -170,6 +185,28 @@
             }
             .display.math{display: block; text-align: center; margin: 0.5rem auto;}
 
+
+        .titulo-responsivo {
+          font-size: 1.5rem; /* Tamanho padrão para desktop */
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        /* Ajustes para telas menores */
+        @media (max-width: 768px) {
+          .titulo-responsivo {
+            font-size: 1.4rem;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .titulo-responsivo {
+            font-size: 1.3rem;
+          }
+        }
+
+
         </style>
     
 
@@ -179,9 +216,13 @@
   </head>
   <body>
 
-<header id="title-block-header">
-<h1 class="title">Prof. Ricardo Miranda Martins</h1>
+<header>
+<h1 class="titulo-responsivo">Prof. Ricardo Miranda Martins</h1>
 </header>
+<div class="center">
+<p><a href="index.html">Main</a> – <a href="publications.html">Research
+&amp; Publications</a> – <a href="teaching.html">Teaching</a></p>
+</div>
 
     <h1 id="welcome">Welcome!</h1>
     <p>I am an Associate Professor at IMECC/Unicamp, the <a
@@ -205,7 +246,7 @@
     <li>or you can see <a
     href="https://mathscinet.ams.org/mathscinet/author?authorId=878452">my
     MathSciNet page</a> for a list of my publications,</li>
-    <li>my <a href="docs/cv2025a.pdf">CV (pdf)</a>.</li>
+    <li>my <a href="cv.pdf">CV (pdf)</a>.</li>
     </ul>
     <h2 id="contact-info">Contact info</h2>
     <p><strong>Contact address:</strong><br />
