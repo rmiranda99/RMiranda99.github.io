@@ -1,4 +1,6 @@
-# Prof. Ricardo Miranda Martins
+---
+title: Prof. Ricardo Miranda Martins
+---
 
 ## Welcome!
 
