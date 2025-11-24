@@ -1,4 +1,6 @@
-# Welcome!
+# Prof. Ricardo Miranda Martins
+
+## Welcome!
 
 I am an Associate Professor at the [University of Campinas](http://www.unicamp.br/).
 
@@ -44,10 +46,9 @@ If the above url is not working:
 2. Jaume Llibre, Ricardo Miranda Martins and Marco Antonio Teixeira, Periodic orbits, invariant tori and cylinders of Hamiltonian systems near integrable ones having a return map equal to the identity. J. Math. Phys., vol. 51, pp. 082704, 2010.
 1. Lino Grama and Ricardo Miranda Martins, The Ricci flow of left invariant metrics on full flag manifold $SU(3)/T$ from a dynamical systems point of view. Bull. Sci. math., vol. 135, iss. 5, pp. 463 – 469, 2009.
 
-
 ## Contact info
 
-**Contact address:**  
+RMiranda [at] unicamp [dot] br  
 IMECC/Unicamp – main building (office \#335)  
 R. Sérgio Buarque de Holanda, 651  
 Cidade Universitária  
