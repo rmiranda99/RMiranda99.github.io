@@ -4,6 +4,8 @@ title: Prof. Ricardo Miranda Martins
 
 ## Welcome!
 
+![](https://www.ime.unicamp.br/~rmiranda/rmm.jpeg)
+
 I am an Associate Professor at the [University of Campinas](http://www.unicamp.br/).
 
 My research area is the qualitative theory of dynamical systems: Filippov systems, structural stability, systems with symmetries (Hamiltonian and/or reversible-equivariant), existence and stability of limit cycles, Ricci flow on homogeneous manifolds, etc.
