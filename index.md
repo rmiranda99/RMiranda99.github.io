@@ -5,8 +5,7 @@ title: Prof. Ricardo Miranda Martins
 
 ## Welcome!
 
-<img src="rmm3.jpg" class="profile-pic" alt="Photo taken by Leo Zacarin in Miami Waves 2026 (IMSA).">
-
+<img src="rmm3small.jpg" class="profile-pic" alt="Photo taken by Leo Zacarin in Miami Waves 2026 (IMSA).">
 
 I am an Associate Professor at the [University of Campinas](http://www.unicamp.br/).
 
