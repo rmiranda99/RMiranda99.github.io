@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Prof. Ricardo Miranda
+Martins · Prof. Ricardo Miranda Martins</title>
+
+    <meta name="author" content="Ricardo Miranda Martins">
+  
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+    :root {
+      --font-serif: 'Lora', Georgia, Cambria, 'Times New Roman', Times, serif;
+      --font-sans: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+      --body-bg: #fafafa;
+      --body-color: #252525;
+      --muted-color: #6c757d;
+      --link-color: #245b85;
+      --link-hover-color: #173d5b;
+      --border-color: #dedede;
+      --soft-bg: #f3f5f7;
+      --table-stripe: rgba(0, 0, 0, 0.035);
+      --danger: #b02a37;
+
+      --content-width: 920px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 18px;
+      background: var(--body-bg);
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      max-width: var(--content-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+      color: var(--body-color);
+      background: var(--body-bg);
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.58;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      display: block;
+    }
+
+
+
+    .site-nav {
+      margin-top: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border-color);
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+    }
+
+    .site-nav a {
+      margin-right: 1.1rem;
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    .site-nav a:hover {
+      text-decoration: underline;
+    }
+
+
+    @media (max-width: 576px) {
+      .site-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1rem;
+      }
+
+      .site-nav a {
+        margin-right: 0;
+      }
+    }
+
+
+
+    /* Cabeçalho do site */
+    .site-header {
+      margin-bottom: 2.25rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border-color);
+      font-family: var(--font-sans);
+    }
+
+    .site-name {
+      margin: 0;
+      font-size: 1.75rem;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .site-name a {
+      color: var(--body-color);
+      text-decoration: none;
+    }
+
+    .site-name a:hover {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    .affiliation {
+      margin-top: 0.3rem;
+      margin-bottom: 0;
+      color: var(--muted-color);
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .site-nav {
+      margin-top: 0.9rem;
+      font-size: 0.88rem;
+    }
+
+    .site-nav a {
+      display: inline-block;
+      margin-right: 1rem;
+    }
+
+    /* Tipografia */
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.65em;
+      margin-bottom: 0.55em;
+      color: inherit;
+      font-family: var(--font-sans);
+      font-weight: 600;
+      line-height: 1.25;
+    }
+
+    main > h1:first-child,
+    main > h2:first-child,
+    main > h3:first-child {
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 1.85rem;
+    }
+
+    h2 {
+      padding-bottom: 0.22rem;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+    }
+
+    h4 {
+      font-size: 1rem;
+    }
+
+    h5, h6 {
+      font-size: 0.95rem;
+      font-style: italic;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    small,
+    .text-muted {
+      color: var(--muted-color);
+    }
+
+    .lora-corpo {
+      font-family: var(--font-serif);
+    }
+
+    /* Links */
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+      text-underline-offset: 0.15em;
+      transition: color 0.15s ease-in-out;
+    }
+
+    a:hover {
+      color: var(--link-hover-color);
+      text-decoration: underline;
+    }
+
+    a:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+
+    /* Imagens e mídia */
+    img,
+    svg,
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+
+    img,
+    svg {
+      vertical-align: middle;
+    }
+
+    figure {
+      margin: 1.5rem 0;
+    }
+
+    figcaption {
+      margin-top: 0.45rem;
+      color: var(--muted-color);
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    .profile-pic {
+      float: left;
+      width: 210px;
+      max-width: 42%;
+      margin: 0.2rem 1.25rem 0.7rem 0;
+      border-radius: 0.4rem;
+    }
+
+    /* Utilitários */
+    .center {
+      text-align: center !important;
+    }
+
+    .clearfix::after {
+      display: table;
+      clear: both;
+      content: '';
+    }
+
+    hr {
+      clear: both;
+      height: 1px;
+      margin: 1.5rem 0;
+      border: 0;
+      background: var(--border-color);
+    }
+
+    blockquote {
+      margin: 1.25rem 0;
+      padding: 0.15rem 1rem;
+      border-left: 0.22rem solid var(--border-color);
+      color: #555;
+    }
+
+    blockquote p:last-child {
+      margin-bottom: 0;
+    }
+
+    .quadro-vermelho {
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border: 1px solid var(--danger);
+      border-radius: 0.35rem;
+    }
+
+    /* Listas */
+    ol,
+    ul {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding-left: 1.6rem;
+    }
+
+    li {
+      margin-bottom: 0.2rem;
+    }
+
+    li > p {
+      margin-bottom: 0.45rem;
+    }
+
+    ol ol,
+    ul ul,
+    ol ul,
+    ul ol {
+      margin-bottom: 0;
+    }
+
+    ul.task-list {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    /* Sumário gerado pelo Pandoc */
+    #TOC {
+      margin: 1.5rem 0 2rem;
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--border-color);
+      border-radius: 0.35rem;
+      background: var(--soft-bg);
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+    }
+
+    #TOC ul {
+      margin-bottom: 0;
+      padding-left: 1.2rem;
+      list-style: none;
+    }
+
+    #TOC > ul {
+      padding-left: 0;
+    }
+
+    /* Tabelas */
+    table {
+      width: 100%;
+      margin: 1.25rem 0 1.5rem;
+      border-collapse: collapse;
+      color: var(--body-color);
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    caption {
+      padding: 0.5rem 0;
+      color: var(--muted-color);
+      text-align: left;
+      caption-side: bottom;
+    }
+
+    th,
+    td {
+      padding: 0.55rem 0.6rem;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: top;
+    }
+
+    thead {
+      border-top: 1px solid var(--border-color);
+      background: var(--soft-bg);
+    }
+
+    tbody tr:nth-of-type(even) {
+      background: var(--table-stripe);
+    }
+
+    /* Código */
+    code,
+    kbd,
+    pre,
+    samp {
+      font-family: var(--font-mono);
+    }
+
+    code {
+      padding: 0.08em 0.28em;
+      border-radius: 0.2rem;
+      background: var(--soft-bg);
+      color: #9b2c54;
+      font-size: 0.88em;
+    }
+
+    pre {
+      margin: 1rem 0 1.4rem;
+      padding: 0.9rem 1rem;
+      overflow: auto;
+      border: 1px solid var(--border-color);
+      border-radius: 0.35rem;
+      background: var(--soft-bg);
+      font-size: 0.84rem;
+      line-height: 1.45;
+    }
+
+    pre code {
+      padding: 0;
+      background: transparent;
+      color: inherit;
+      font-size: inherit;
+    }
+
+    /* Colunas geradas pelo Pandoc */
+    div.columns {
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    div.column {
+      min-width: 0;
+      flex: 1;
+      overflow-x: auto;
+    }
+
+    div.hanging-indent {
+      margin-left: 1.5rem;
+      text-indent: -1.5rem;
+    }
+
+    /* Título responsivo legado */
+    .titulo-responsivo {
+      margin-bottom: 0.2rem;
+      overflow: hidden;
+      font-family: var(--font-sans);
+      font-size: clamp(1.05rem, 2vw, 1.4rem);
+      font-weight: 500;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* MathJax */
+    mjx-container {
+      max-width: 100%;
+      font-size: 1em !important;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+    /* Rodapé */
+    .site-footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border-color);
+      color: var(--muted-color);
+      font-family: var(--font-sans);
+      font-size: 0.78rem;
+    }
+
+    /* Responsividade */
+    @media (max-width: 700px) {
+      html {
+        font-size: 17px;
+      }
+
+      body {
+        padding: 1.25rem 1rem 2rem;
+      }
+
+      .site-name {
+        font-size: 1.5rem;
+      }
+
+      .profile-pic {
+        float: none;
+        display: block;
+        width: min(220px, 70%);
+        max-width: none;
+        margin: 0 auto 1.2rem;
+      }
+
+      div.columns {
+        display: block;
+      }
+
+      div.column + div.column {
+        margin-top: 1rem;
+      }
+
+      table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    }
+
+    @media print {
+      html,
+      body {
+        background: #fff;
+      }
+
+      body {
+        max-width: none;
+        padding: 0;
+        color: #000;
+        font-size: 11pt;
+      }
+
+      .site-header,
+      .site-footer {
+        border-color: #bbb;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    </style>
+  
+  <script>
+    window.MathJax = {
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-name">
+    <a href="https://www.ime.unicamp.br/~rmiranda/">Prof. Ricardo Miranda Martins</a>
+  </div>
+  <p class="site-affiliation">
+    Associate Professor @
+    <a href="https://www.ime.unicamp.br/">IMECC</a> /
+    <a href="https://www.unicamp.br/">Unicamp</a>
+  </p>
+</header>
+
+<main>
+<h2 id="welcome">Welcome!</h2>
+<p><img src="foto2.png" class="profile-pic" alt="Ricardo Miranda Martins"></p>
+<p>I am an Associate Professor at the <a
+href="http://www.unicamp.br/">University of Campinas</a>.</p>
+<p>My research area is the qualitative theory of dynamical systems:
+Filippov systems, structural stability, systems with symmetries
+(Hamiltonian and/or reversible-equivariant), existence and stability of
+limit cycles, Ricci flow on homogeneous manifolds, etc.</p>
+<p>My e-mail is: RMiranda [at] unicamp [dot] br</p>
+<p>My official webpage is located at: <a
+href="http://www.ime.unicamp.br/~rmiranda/">http://www.ime.unicamp.br/~rmiranda/</a></p>
+<p>The above url is not working? If you are my student, please refer to
+the Moodle page of your course for up-to-date information. For my
+academic background and publications, you may consult my <a
+href="http://lattes.cnpq.br/7260833760482439">Currículo Lattes</a>￼or <a
+href="https://mathscinet.ams.org/mathscinet/author?authorId=878452">my
+MathSciNet page</a> profile. You may also take a look at <a
+href="cv.pdf">this PDF version of my CV</a>, although it is slightly
+outdated.</p>
+</main>
+
+</body>
+</html>
